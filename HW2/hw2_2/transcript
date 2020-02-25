@@ -1,0 +1,204 @@
+# Reading C:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/tcl/vsim/pref.tcl
+# //  ModelSim SE 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile I:/WIN/Desktop/552HW2/hw2_2/shifter_hier_bench.v
+# Loading project hw22
+vsim -gui -novopt work.alu_hier_bench
+# vsim -gui I:\WIN\Desktop\552HW2\hw2_2\shifter_hier_bench.v 
+# Start time: 20:53:56 on Feb 17,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.alu_hier_bench
+# Loading work.alu_hier_bench
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.alu_hier
+# Loading work.alu_hier
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.clkrst
+# Loading work.clkrst
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.alu
+# Loading work.alu
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.shifter_hier
+# Loading work.shifter_hier
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.shifter
+# Loading work.shifter
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.cla_16b
+# Loading work.cla_16b
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.cla_4b
+# Loading work.cla_4b
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.fullAdder_1b
+# Loading work.fullAdder_1b
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.xor3
+# Loading work.xor3
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.not1
+# Loading work.not1
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.nand2
+# Loading work.nand2
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.nor2
+# Loading work.nor2
+# ** Warning: (vsim-3015) D:/POJ/ECE552/hw2/hw2_2/alu.v(48): [PCDPC] - Port size (2) does not match connection size (3) for port 'Op'. The port definition is at: D:/POJ/ECE552/hw2/hw2_2/shifter_hier.v(8).
+# 
+#         Region: /alu_hier_bench/DUT/a0/shifter
+run -all
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = e9f9, InB = 24c6, Cin = 1, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 000b, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = db8f, InB = 69f2, Cin = 0, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 91c0, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 582d, InB = 2665, Cin = 1, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 02c1, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 9bf1, InB = 4bd9, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 1834, Ofl = 0, Zero = 0 :: Expected :: Out = 1834, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = c0d7, InB = fc51, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = bd28, Ofl = 1, Zero = 0 :: Expected :: Out = bd28, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 3886, InB = 0c8e, Cin = 0, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 1c43, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = db5a, InB = c129, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 0092, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 1979, InB = ff44, Cin = 0, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = fe68, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = b9b6, InB = 8a38, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = db5c, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 2db6, InB = 7195, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 60b3, Ofl = 0, Zero = 0 :: Expected :: Out = 60b3, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 00b9, InB = 6137, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 5c80, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = e6ec, InB = 168a, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 2263, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 66e6, InB = c09f, Cin = 0, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = ffff, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 9dba, InB = abc4, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = fff3, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = e953, InB = 6256, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = fff4, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 1bf5, InB = 03ad, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = e05d, Ofl = 1, Zero = 0 :: Expected :: Out = e05d, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 2045, InB = 0583, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 0408, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 0d86, InB = 21f0, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 0d86, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 31c0, InB = 5f74, Cin = 1, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 1c03, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 3db1, InB = 9f44, Cin = 1, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 24ec, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 616a, InB = 5784, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = b8ee, Ofl = 0, Zero = 0 :: Expected :: Out = b8ee, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = fea6, InB = 1e25, Cin = 0, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 000a, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 502c, InB = 458c, Cin = 1, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = fffa, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 8173, InB = 5bec, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 22a0, Ofl = 1, Zero = 0 :: Expected :: Out = 22a0, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 14d4, InB = 6567, Cin = 1, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = d414, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = d851, InB = a469, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = ff61, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = b1b8, InB = f2b7, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 474e, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = f581, InB = b9d5, Cin = 0, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 07d6, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = bc7d, InB = 958e, Cin = 0, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = adf3, Ofl = 0, Zero = 0 :: Expected :: Out = adf3, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = d829, InB = 51bc, Cin = 0, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = c14e, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 33a5, InB = 8e3e, Cin = 1, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 4ce9, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 509a, InB = 1918, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 00a1, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 736f, InB = 4b1b, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = c908, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = d21b, InB = 3e80, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = ffff, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 1dcd, InB = 4305, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = b9a3, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 89b0, InB = dc06, Cin = 0, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 93dd, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 9287, InB = 5afa, Cin = 1, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = af0d, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = df0c, InB = 6b0d, Cin = 1, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 9be1, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 1513, InB = 86c3, Cin = 1, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 8e50, Ofl = 0, Zero = 0 :: Expected :: Out = 8e50, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 5b23, InB = ebab, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = fa4d, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 721a, InB = 1338, Cin = 0, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 0d39, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 53b0, InB = 82fb, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 3b05, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 5850, InB = 6331, Cin = 0, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0ae0, Ofl = 1, Zero = 0 :: Expected :: Out = 0ae0, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 1f3b, InB = 2435, Cin = 1, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 04fa, Ofl = 0, Zero = 0 :: Expected :: Out = 04fa, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = a4f8, InB = 4e20, Cin = 0, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = a4f8, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 3a8f, InB = 9595, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 2fdb, Ofl = 1, Zero = 0 :: Expected :: Out = 2fdb, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = b4aa, InB = f0a0, Cin = 1, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 5a55, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 63bb, InB = 92df, Cin = 1, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 9c44, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 295c, InB = 0749, Cin = 1, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 0014, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 6025, InB = d609, Cin = 0, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 75e3, Ofl = 0, Zero = 0 :: Expected :: Out = 75e3, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 5fac, InB = 8ee8, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 29d0, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = be45, InB = 67b3, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = f22d, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = dff1, InB = fb8e, Cin = 0, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 8803, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 535e, InB = 86cd, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 4d79, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 8a8d, InB = 39c9, Cin = 1, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = af3c, Ofl = 0, Zero = 0 :: Expected :: Out = af3c, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = a32d, InB = 7131, Cin = 0, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 145e, Ofl = 0, Zero = 0 :: Expected :: Out = 145e, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 2fbd, InB = 24d9, Cin = 0, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 10b4, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 0326, InB = 8605, Cin = 1, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 82df, Ofl = 1, Zero = 0 :: Expected :: Out = 82df, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 57a0, InB = 8f3f, Cin = 1, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = d42f, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 61ee, InB = 5bcc, Cin = 1, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 0f73, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = bd76, InB = 79cb, Cin = 1, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 3742, Ofl = 1, Zero = 0 :: Expected :: Out = 3742, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 2 , InA = 424b, InB = e1bb, Cin = 1, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = fbdb, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 60e1, InB = c5fc, Cin = 1, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 070b, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 53fa, InB = 4df4, Cin = 1, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 3fa5, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 2455, InB = 67fe, Cin = 1, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 73ac, Ofl = 0, Zero = 0 :: Expected :: Out = 73ac, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 218a, InB = 3667, Cin = 0, invA = 0, invB = 1, sign = 0 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 8a21, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = 69f2, InB = 8294, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 9f26, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 0 , InA = b2cb, InB = c6af, Cin = 0, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0001, Ofl = 0, Zero = 0 :: Expected :: Out = 269a, ExOfl = 0, ExZero = 0
+# TEST FAILED
+# ** Note: $finish    : D:/POJ/ECE552/hw2/hw2_2/alu_hier_bench.v(42)
+#    Time: 20 us  Iteration: 0  Instance: /alu_hier_bench
+# 1
+# Break in Module alu_hier_bench at D:/POJ/ECE552/hw2/hw2_2/alu_hier_bench.v line 42
+# Error opening D:/POJ/ECE552/hw2/hw2_2/alu_hier_bench.v
+# Path name 'D:/POJ/ECE552/hw2/hw2_2/alu_hier_bench.v' doesn't exist.
+# Compile of xor3.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_hier.v was successful.
+# Compile of alu_hier_bench.v was successful.
+# Compile of cla_4b.v was successful.
+# Compile of cla_16b.v was successful.
+# Compile of cla_16b_bench.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of fullAdder_1b.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nand3.v was successful.
+# Compile of nor2.v was successful.
+# Compile of nor3.v was successful.
+# Compile of not1.v was successful.
+# Compile of shifter.v was successful.
+# Compile of shifter_hier.v was successful.
+# Compile of shifter_hier_bench.v was successful.
+# Compile of xor2.v was successful.
+# 18 compiles, 0 failed with no errors.
+quit -sim
+vsim -gui -novopt work.alu_hier_bench
+# vsim 
+# Start time: 20:55:22 on Feb 17,2020
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.alu_hier_bench
+# Loading work.alu_hier_bench
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.alu_hier
+# Loading work.alu_hier
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.clkrst
+# Loading work.clkrst
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.alu
+# Loading work.alu
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.shifter_hier
+# Loading work.shifter_hier
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.shifter
+# Loading work.shifter
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.cla_16b
+# Loading work.cla_16b
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.cla_4b
+# Loading work.cla_4b
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.fullAdder_1b
+# Loading work.fullAdder_1b
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.xor3
+# Loading work.xor3
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.not1
+# Loading work.not1
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.nand2
+# Loading work.nand2
+# Refreshing I:/WIN/Desktop/552HW2/hw2_2/work.nor2
+# Loading work.nor2
+# ** Warning: (vsim-3015) I:/win/desktop/552HW2/hw2_2/alu.v(48): [PCDPC] - Port size (2) does not match connection size (3) for port 'Op'. The port definition is at: I:/win/desktop/552HW2/hw2_2/shifter_hier.v(8).
+# 
+#         Region: /alu_hier_bench/DUT/a0/shifter
+run -all
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 9bf1, InB = 4bd9, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 1834, Ofl = 0, Zero = 0 :: Expected :: Out = 1834, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = c0d7, InB = fc51, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = bd28, Ofl = 1, Zero = 0 :: Expected :: Out = bd28, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 2db6, InB = 7195, Cin = 0, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 60b3, Ofl = 0, Zero = 0 :: Expected :: Out = 60b3, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 1bf5, InB = 03ad, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = e05d, Ofl = 1, Zero = 0 :: Expected :: Out = e05d, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 616a, InB = 5784, Cin = 0, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = b8ee, Ofl = 0, Zero = 0 :: Expected :: Out = b8ee, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 8173, InB = 5bec, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 22a0, Ofl = 1, Zero = 0 :: Expected :: Out = 22a0, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = bc7d, InB = 958e, Cin = 0, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = adf3, Ofl = 0, Zero = 0 :: Expected :: Out = adf3, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 1513, InB = 86c3, Cin = 1, invA = 0, invB = 1, sign = 1 :: Outputs :: Out = 8e50, Ofl = 0, Zero = 0 :: Expected :: Out = 8e50, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 5850, InB = 6331, Cin = 0, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 0ae0, Ofl = 1, Zero = 0 :: Expected :: Out = 0ae0, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 1f3b, InB = 2435, Cin = 1, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 04fa, Ofl = 0, Zero = 0 :: Expected :: Out = 04fa, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 3a8f, InB = 9595, Cin = 1, invA = 1, invB = 1, sign = 1 :: Outputs :: Out = 2fdb, Ofl = 1, Zero = 0 :: Expected :: Out = 2fdb, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 6025, InB = d609, Cin = 0, invA = 1, invB = 0, sign = 0 :: Outputs :: Out = 75e3, Ofl = 0, Zero = 0 :: Expected :: Out = 75e3, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 8a8d, InB = 39c9, Cin = 1, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = af3c, Ofl = 0, Zero = 0 :: Expected :: Out = af3c, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = a32d, InB = 7131, Cin = 0, invA = 0, invB = 0, sign = 0 :: Outputs :: Out = 145e, Ofl = 0, Zero = 0 :: Expected :: Out = 145e, ExOfl = 1, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 0326, InB = 8605, Cin = 1, invA = 1, invB = 0, sign = 1 :: Outputs :: Out = 82df, Ofl = 1, Zero = 0 :: Expected :: Out = 82df, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = bd76, InB = 79cb, Cin = 1, invA = 0, invB = 0, sign = 1 :: Outputs :: Out = 3742, Ofl = 1, Zero = 0 :: Expected :: Out = 3742, ExOfl = 0, ExZero = 0
+# ERRORCHECK :: ALU :: Inputs :: Op = 4 , InA = 2455, InB = 67fe, Cin = 1, invA = 1, invB = 1, sign = 0 :: Outputs :: Out = 73ac, Ofl = 0, Zero = 0 :: Expected :: Out = 73ac, ExOfl = 1, ExZero = 0
+# TEST FAILED
+# ** Note: $finish    : I:/win/desktop/552HW2/hw2_2/alu_hier_bench.v(42)
+#    Time: 20 us  Iteration: 0  Instance: /alu_hier_bench
+# 1
+# Break in Module alu_hier_bench at I:/win/desktop/552HW2/hw2_2/alu_hier_bench.v line 42
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# End time: 20:59:33 on Feb 17,2020, Elapsed time: 0:04:11
+# Errors: 0, Warnings: 2

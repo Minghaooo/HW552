@@ -1,0 +1,78 @@
+I:/WIN/Desktop/552HW2/hw2_1/shifter_hier.v {1 {vlog -work work -vopt -stats=none I:/win/desktop/552HW2/hw2_1/shifter_hier.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shifter_hier
+
+Top level modules:
+	shifter_hier
+
+} {} {}} D:/POJ/ECE552/hw2/hw2_1/clkrst.v {1 {vlog -work work -stats=none {D:\POJ\ECE552\hw2\hw2_1\clkrst.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} D:/POJ/ECE552/hw2/hw2_1/shifter_hier_bench.v {1 {vlog -work work -stats=none D:/POJ/ECE552/hw2/hw2_1/shifter_hier_bench.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shifter_hier_bench
+
+Top level modules:
+	shifter_hier_bench
+
+} {} {}} I:/WIN/Desktop/552HW2/hw2_1/shifter.v {1 {vlog -work work -vopt -stats=none I:/win/desktop/552HW2/hw2_1/shifter.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} D:/POJ/ECE552/hw2/hw2_1/shifter_hier.v {1 {vlog -work work -stats=none D:/POJ/ECE552/hw2/hw2_1/shifter_hier.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shifter_hier
+
+Top level modules:
+	shifter_hier
+
+} {} {}} {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/shifter_hier_bench.v} {1 {vlog -work work -stats=none {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/shifter_hier_bench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shifter_hier_bench
+
+Top level modules:
+	shifter_hier_bench
+
+} {} {}} {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/clkrst.v} {1 {vlog -work work -stats=none {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/clkrst.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/shifter_hier.v} {1 {vlog -work work -stats=none {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/shifter_hier.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shifter_hier
+
+Top level modules:
+	shifter_hier
+
+} {} {}} I:/WIN/Desktop/552HW2/hw2_1/clkrst.v {1 {vlog -work work -vopt -stats=none I:/win/desktop/552HW2/hw2_1/clkrst.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} I:/WIN/Desktop/552HW2/hw2_1/shifter_hier_bench.v {1 {vlog -work work -vopt -stats=none I:/win/desktop/552HW2/hw2_1/shifter_hier_bench.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shifter_hier_bench
+
+Top level modules:
+	shifter_hier_bench
+
+} {} {}} {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/shifter.v} {1 {vlog -work work -stats=none {Z:/OneDrive - UW-Madison/Homework/ECE552/hw2/hw2_1/shifter.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}}

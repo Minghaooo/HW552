@@ -1,0 +1,131 @@
+# Reading C:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/tcl/vsim/pref.tcl
+# //  ModelSim SE 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile I:/WIN/Desktop/552HW2/hw2_1/shifter.v
+# Loading project hw21
+# Compile of shifter_hier_bench.v was successful.
+# Compile of clkrst.v was successful.
+# Compile of shifter.v was successful.
+# Compile of shifter_hier.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.shifter_hier_bench
+# vsim -gui I:\WIN\Desktop\552HW2\hw2_1\shifter.v 
+# Start time: 20:52:08 on Feb 17,2020
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.shifter_hier_bench(fast)
+run -all
+# LOG :: BarrelShifter :: Shift Left        : Count :  1, In = 3524 ; Expected : 6a48, Got 6a48
+# LOG :: BarrelShifter :: Shift Left        : Count : 13, In = 5663 ; Expected : 6000, Got 6000
+# LOG :: BarrelShifter :: Shift Left        : Count :  2, In = 8465 ; Expected : 1194, Got 1194
+# LOG :: BarrelShifter :: Shift Left        : Count :  6, In = cd0d ; Expected : 4340, Got 4340
+# LOG :: BarrelShifter :: Shift Left        : Count : 12, In = 57ed ; Expected : d000, Got d000
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  5, In = 24c6 ; Expected : 0126, Got 0126
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  7, In = f7e5 ; Expected : ffef, Got ffef
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  2, In = db8f ; Expected : f6e3, Got f6e3
+# LOG :: BarrelShifter :: Rotate Left       : Count :  5, In = 7ae8 ; Expected : 5d0f, Got 5d0f
+# LOG :: BarrelShifter :: Shift Left        : Count : 13, In = 28bd ; Expected : a000, Got a000
+# LOG :: BarrelShifter :: Rotate Left       : Count : 10, In = 6263 ; Expected : 8d89, Got 8d89
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = 2120 ; Expected : 8000, Got 8000
+# LOG :: BarrelShifter :: Shift Left        : Count :  3, In = 3e96 ; Expected : f4b0, Got f4b0
+# LOG :: BarrelShifter :: Shift Left        : Count : 11, In = d653 ; Expected : 9800, Got 9800
+# LOG :: BarrelShifter :: Shift Left        : Count : 14, In = 4a02 ; Expected : 8000, Got 8000
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  3, In = 72cf ; Expected : 0e59, Got 0e59
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 12, In = 0aca ; Expected : 0000, Got 0000
+# LOG :: BarrelShifter :: Rotate Left       : Count :  1, In = 618a ; Expected : c314, Got c314
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  9, In = f378 ; Expected : 0079, Got 0079
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  6, In = 65b6 ; Expected : 0196, Got 0196
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 10, In = 02bc ; Expected : 0000, Got 0000
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  5, In = be71 ; Expected : 05f3, Got 05f3
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 10, In = 603b ; Expected : 0018, Got 0018
+# LOG :: BarrelShifter :: Shift Left        : Count :  1, In = 4b15 ; Expected : 962a, Got 962a
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 12, In = 0762 ; Expected : 0000, Got 0000
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  8, In = a18f ; Expected : 00a1, Got 00a1
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 12, In = 569f ; Expected : 0005, Got 0005
+# LOG :: BarrelShifter :: Rotate Left       : Count :  9, In = 3789 ; Expected : 126f, Got 126f
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  1, In = c0d7 ; Expected : e06b, Got e06b
+# LOG :: BarrelShifter :: Rotate Left       : Count :  2, In = 7f0c ; Expected : fc31, Got fc31
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 13, In = 5a77 ; Expected : 0002, Got 0002
+# LOG :: BarrelShifter :: Shift Left        : Count : 13, In = 007e ; Expected : c000, Got c000
+# LOG :: BarrelShifter :: Shift Left        : Count :  3, In = 8f1f ; Expected : 78f8, Got 78f8
+# LOG :: BarrelShifter :: Shift Left        : Count : 11, In = 8878 ; Expected : c000, Got c000
+# LOG :: BarrelShifter :: Rotate Left       : Count : 10, In = ae3f ; Expected : feb8, Got feb8
+# LOG :: BarrelShifter :: Rotate Left       : Count : 14, In = 3886 ; Expected : 8e21, Got 8e21
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  6, In = 99fa ; Expected : 0267, Got 0267
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 15, In = b4a3 ; Expected : 0001, Got 0001
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  4, In = 565f ; Expected : 0565, Got 0565
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  6, In = 36cb ; Expected : 00db, Got 00db
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 13, In = c129 ; Expected : fffe, Got fffe
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  5, In = b665 ; Expected : 05b3, Got 05b3
+# LOG :: BarrelShifter :: Rotate Left       : Count :  4, In = 1979 ; Expected : 9791, Got 9791
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 11, In = 0b2a ; Expected : 0001, Got 0001
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = addc ; Expected : 7000, Got 7000
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  6, In = 02c3 ; Expected : 000b, Got 000b
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 10, In = 7667 ; Expected : 001d, Got 001d
+# LOG :: BarrelShifter :: Rotate Left       : Count :  9, In = 8a38 ; Expected : 7114, Got 7114
+# LOG :: BarrelShifter :: Rotate Left       : Count :  3, In = bf94 ; Expected : fca5, Got fca5
+# LOG :: BarrelShifter :: Shift Left        : Count : 11, In = ca59 ; Expected : c800, Got c800
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 13, In = b7d9 ; Expected : fffd, Got fffd
+# LOG :: BarrelShifter :: Shift Left        : Count :  6, In = 49ca ; Expected : 7280, Got 7280
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  4, In = 1a46 ; Expected : 01a4, Got 01a4
+# LOG :: BarrelShifter :: Rotate Left       : Count :  4, In = 0769 ; Expected : 7690, Got 7690
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 13, In = d928 ; Expected : 0006, Got 0006
+# LOG :: BarrelShifter :: Rotate Left       : Count :  8, In = 9c2e ; Expected : 2e9c, Got 2e9c
+# LOG :: BarrelShifter :: Rotate Left       : Count :  9, In = a6fd ; Expected : fb4d, Got fb4d
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = 6786 ; Expected : 1800, Got 1800
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  0, In = a766 ; Expected : a766, Got a766
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 14, In = 99ba ; Expected : fffe, Got fffe
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = 05d5 ; Expected : 5400, Got 5400
+# LOG :: BarrelShifter :: Rotate Left       : Count :  6, In = 6137 ; Expected : 4dd8, Got 4dd8
+# LOG :: BarrelShifter :: Shift Left        : Count :  6, In = 9f26 ; Expected : c980, Got c980
+# LOG :: BarrelShifter :: Rotate Left       : Count :  6, In = 0fdc ; Expected : f703, Got f703
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 11, In = 9b7e ; Expected : 0013, Got 0013
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = 2b79 ; Expected : e400, Got e400
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  1, In = 0917 ; Expected : 048b, Got 048b
+# LOG :: BarrelShifter :: Shift Left        : Count :  5, In = 9650 ; Expected : ca00, Got ca00
+# LOG :: BarrelShifter :: Shift Left        : Count :  1, In = 8a29 ; Expected : 1452, Got 1452
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 11, In = b498 ; Expected : 0016, Got 0016
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 10, In = e6ec ; Expected : fff9, Got fff9
+# LOG :: BarrelShifter :: Shift Left        : Count :  9, In = 80a8 ; Expected : 5000, Got 5000
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  6, In = b90e ; Expected : 02e4, Got 02e4
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = b52a ; Expected : a800, Got a800
+# LOG :: BarrelShifter :: Shift Left        : Count :  8, In = ff9e ; Expected : 9e00, Got 9e00
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 10, In = e3c8 ; Expected : 0038, Got 0038
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  7, In = c96b ; Expected : ff92, Got ff92
+# LOG :: BarrelShifter :: Shift Left        : Count :  4, In = 9dba ; Expected : dba0, Got dba0
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  4, In = d392 ; Expected : 0d39, Got 0d39
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 10, In = 9086 ; Expected : ffe4, Got ffe4
+# LOG :: BarrelShifter :: Rotate Left       : Count : 13, In = 2132 ; Expected : 4426, Got 4426
+# LOG :: BarrelShifter :: Shift Left        : Count : 10, In = a4e4 ; Expected : 9000, Got 9000
+# LOG :: BarrelShifter :: Shift Right Logic : Count : 14, In = a8a1 ; Expected : 0002, Got 0002
+# LOG :: BarrelShifter :: Shift Left        : Count : 15, In = 1e0b ; Expected : 8000, Got 8000
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  5, In = e536 ; Expected : 0729, Got 0729
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  8, In = bf6b ; Expected : ffbf, Got ffbf
+# LOG :: BarrelShifter :: Rotate Left       : Count :  2, In = 819b ; Expected : 066e, Got 066e
+# LOG :: BarrelShifter :: Shift Right Arith : Count : 11, In = e02d ; Expected : fffc, Got fffc
+# LOG :: BarrelShifter :: Rotate Left       : Count : 13, In = f61e ; Expected : dec3, Got dec3
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  1, In = 9d18 ; Expected : ce8c, Got ce8c
+# LOG :: BarrelShifter :: Rotate Left       : Count : 11, In = 2441 ; Expected : 0922, Got 0922
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  6, In = e953 ; Expected : 03a5, Got 03a5
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  4, In = fae2 ; Expected : 0fae, Got 0fae
+# LOG :: BarrelShifter :: Rotate Left       : Count :  2, In = b4d8 ; Expected : d362, Got d362
+# LOG :: BarrelShifter :: Shift Left        : Count :  5, In = 1239 ; Expected : 4720, Got 4720
+# LOG :: BarrelShifter :: Rotate Left       : Count :  1, In = 0f2b ; Expected : 1e56, Got 1e56
+# LOG :: BarrelShifter :: Shift Right Logic : Count :  1, In = 5527 ; Expected : 2a93, Got 2a93
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  8, In = 3a04 ; Expected : 003a, Got 003a
+# LOG :: BarrelShifter :: Shift Right Arith : Count :  2, In = 9314 ; Expected : e4c5, Got e4c5
+# LOG :: BarrelShifter :: Shift Left        : Count :  5, In = e2b1 ; Expected : 5620, Got 5620
+# TEST PASSED
+# ** Note: $finish    : I:/win/desktop/552HW2/hw2_1/shifter_hier_bench.v(41)
+#    Time: 10 us  Iteration: 0  Instance: /shifter_hier_bench
+# 1
+# Break at I:/win/desktop/552HW2/hw2_1/shifter_hier_bench.v line 41
+# End time: 20:52:34 on Feb 17,2020, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
