@@ -1,0 +1,174 @@
+module mem_control(
+ input clk,    
+ input rst,    
+ //input from outsi
+ input Wr,    
+ input Rd,    
+// state of Cache 
+ input C_hit,    
+ input C_dirty,    
+ input C_valid,    
+// sate of Mem
+ input [3:0] M_busy,    
+ input M_stall,
+ input [1:0] Mbank,    
+//Cache Control
+ output reg C_comp,     
+ output reg C_write,     
+ output  C_valid_in,     
+//mem control 
+ output reg M_wr,     
+ output reg M_rd,     
+ output reg sel_M_datain,     
+ output reg sel_addr,     
+ output reg true_hit,     
+ output reg sel_data_out,     
+ output reg done,
+ output reg C_stall ,
+ output reg sel_C_Data_in     
+
+
+	);
+
+	wire[4:0] state_nxt_in;
+	wire [4:0]state;
+	reg [4:0] nxt_state;
+
+
+	localparam IDLE = 0, WDATA =1, WBACK =2,WMISS = 3, WHIT = 4, WMEM = 10, WCACHE=11;
+	localparam RDATA = 5, RHIT = 6, RMISS = 7,RMEM = 8, RFINISH  = 9, RFINAL=12;
+
+//	assign true_hit= (C_hit & C_valid &(Wr | Rd)) | (Wr&(~C_dirty));//only when it is hit and valid;
+	assign C_valid_in = 1'b1; // when compare =0?
+
+
+	assign state_nxt_in = M_stall? state :  nxt_state;
+
+	dff state_f0(.q(state[0]), .d(state_nxt_in[0]), .clk(clk), .rst(rst));
+	dff state_f1(.q(state[1]), .d(state_nxt_in[1]), .clk(clk), .rst(rst));
+	dff state_f2(.q(state[2]), .d(state_nxt_in[2]), .clk(clk), .rst(rst));
+	dff state_f3(.q(state[3]), .d(state_nxt_in[3]), .clk(clk), .rst(rst));
+	dff state_f4(.q(state[4]), .d(state_nxt_in[4]), .clk(clk), .rst(rst));
+
+
+	always @(*) begin 
+
+		C_comp = 1'b0;  // compare default on 
+		C_write =1'b0;
+		C_stall = 1'b0;
+		M_wr= 1'b0;    // memory read
+		M_rd= 1'b0;		// memory write 
+		sel_M_datain= 1'b0;
+		sel_addr= 1'b0;    // the address default from input(otherwise from cache tagout)
+		sel_data_out= 1'b0; // output from cache
+		sel_C_Data_in = 1'b0;
+		true_hit = 1'b0;
+		
+	    done = 1'b0;
+		nxt_state = IDLE;    
+
+
+		case(state)
+		IDLE:begin   //0
+		nxt_state = Wr? WDATA : Rd? RDATA : IDLE;
+		C_comp = 1'b1;
+		C_stall = Wr|Rd;	
+		end
+
+		RDATA: begin  //5
+		nxt_state = (C_valid&C_hit)? IDLE : RMISS;
+		done = (C_valid&C_hit)? 1'b1 :1'b0;
+		true_hit = (C_valid&C_hit)? 1'b1 :1'b0;
+		C_stall= 1'b1;
+	
+		end
+
+		RMISS:begin  // 7 start read from memory  
+		C_stall = 1'b1;
+		M_rd = 1'b1;
+		sel_addr = 1'b0;
+		sel_data_out = 1'b1;
+		nxt_state = RMEM;
+
+		end
+
+		RMEM:begin  //8  // start read from memory cycle 1
+		C_stall = 1'b1;
+		nxt_state = RFINISH;
+		sel_data_out = 1'b1;
+		
+		end
+
+		RFINISH:begin//9 // read data available 2
+		C_stall = 1'b1;
+		sel_C_Data_in = 1'b1;
+		sel_data_out = 1'b1;
+		nxt_state = RFINAL; // cache 
+		done =1'b1;
+		end
+		
+		RFINAL:begin  // write valid bit;
+		C_comp = 1'b0;
+		C_write = 1'b1;
+	//	C_valid_in = 1'b1;
+		C_stall = 1'b1;
+		nxt_state = IDLE;
+		end
+
+		WDATA: begin  // 1 just update the cache
+		nxt_state = (~C_hit)&C_valid&C_dirty ? WBACK: WCACHE;
+		done = (~C_hit)&C_valid&C_dirty ? 1'b0: 1'b1;
+		true_hit =(~C_hit)&C_valid&C_dirty ? 1'b0: 1'b1;
+
+		C_comp = 1'b0;  // set bit to 1
+		C_write = 1'b1;
+		C_stall = 1'b1;
+		end
+
+		WCACHE:begin  //11// write data;
+		C_comp = 1'b1;
+		C_write = 1'b1;
+	//	C_valid_in = 1'b1;
+		C_stall = 1'b1;
+		nxt_state = IDLE;
+		//done = 1'b1;
+		end
+
+		WBACK: begin 
+		C_stall = 1'b1;
+			// write back to mem
+		sel_M_datain = 1'b1;
+		sel_addr = 1'b1;
+		M_wr = 1'b1;
+
+		//write to cache
+		sel_C_Data_in = 1'b0;
+
+		C_write = 1'b1;
+		C_comp = 1'b1;
+
+		nxt_state = IDLE;
+		end
+
+	//	WMISS:begin  // when miss and not need to write back
+		//C_write = 1'b1; // 
+	//	nxt_state = IDLE;
+	//	done = 1'b1;
+
+	//	end
+
+	//	WHIT:begin // may be can be skipped 
+	//	nxt_state = IDLE;
+	//	done = 1'b1;
+	//	end
+		default : nxt_state = IDLE;
+
+
+
+
+		endcase // state
+	
+	end
+
+
+endmodule

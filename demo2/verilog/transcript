@@ -1,0 +1,60 @@
+# vsim -c proc_hier_pbench -lib __work 
+# Start time: 15:15:59 on Apr 03,2020
+# //  ModelSim DE 10.7c Aug 17 2018Linux 4.15.0-91-generic
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading __work.proc_hier_pbench
+# Loading __work.proc_hier
+# Loading __work.clkrst
+# Loading __work.proc
+# Loading __work.fetch
+# Loading __work.dff_16bit
+# Loading __work.memory2c
+# Loading __work.cla_16b
+# Loading __work.not1
+# Loading __work.nand2
+# Loading __work.nand3
+# Loading __work.nor2
+# Loading __work.cla_4b
+# Loading __work.fullAdder_1b
+# Loading __work.xor3
+# Loading __work.IF_ID
+# Loading __work.dff
+# Loading __work.decode
+# Loading __work.regFile_bypass
+# Loading __work.regFile
+# Loading __work.reg_16bit
+# Loading __work.ID_EX
+# Loading __work.execute
+# Loading __work.alu
+# Loading __work.shifter
+# Loading __work.left_rotator
+# Loading __work.right_rotator
+# Loading __work.EX_MEM
+# Loading __work.memory
+# Loading __work.MEM_WB
+# Loading __work.wb
+# Loading __work.stall_detect
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'mask_from_WB'. The port definition is at: decode.v(24).
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_pbench/DUT/p0/decode0 File: proc.v Line: 104
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'de_ctrl'.  Expected 59, found 57.
+#    Time: 0 ns  Iteration: 0  Instance: /proc_hier_pbench/DUT/p0/de_ctrl File: proc.v Line: 117
+# ** Warning: (vsim-3722) proc.v(117): [TFMPC] - Missing connection for port 'ALU_Zero'.
+# ** Warning: (vsim-3722) proc.v(117): [TFMPC] - Missing connection for port 'ALU_Ofl'.
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.ptrace for output
+# ** Note: $finish    : proc_hier_pbench.v(115)
+#    Time: 705 ns  Iteration: 0  Instance: /proc_hier_pbench
+# End time: 15:15:59 on Apr 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4

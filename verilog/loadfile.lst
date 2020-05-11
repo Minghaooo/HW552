@@ -1,0 +1,28 @@
+0000 c102 lbi r1, 0x02
+0002 c202 lbi r2, 0x02
+          
+0004 4921 subi r1, r1, 1
+0006 4241 addi r2, r2, 1
+0008 4241 addi r2, r2, 1
+000a 4241 addi r2, r2, 1
+000c 4241 addi r2, r2, 1
+000e 4241 addi r2, r2, 1
+0010 4241 addi r2, r2, 1
+0012 4241 addi r2, r2, 1
+0014 d924 add r1,r1,r1
+0016 da48 add r2,r2,r2
+0018 4a41 subi r2,r2,1
+001a da48 add r2,r2,r2
+001c da48 add r2,r2,r2
+001e da49 sub r2,r2,r2
+0020 d948 add r2,r1,r2
+0022 da44 add r1,r2,r2
+0024 da48 add r2,r2,r2
+0026 4244 addi r2,r2,4
+0028 9a4c stu r2, r2, 12
+002a 814a st r2, r1, 10
+002c 814a st r2, r1, 10
+002e d928 add r2, r1, r1
+0030 524a xori r2, r2, 10
+0032 894a ld r2, r1, 10
+0034 0000 halt

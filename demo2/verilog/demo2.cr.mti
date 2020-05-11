@@ -1,0 +1,211 @@
+{C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nand3.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nand3.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module nand3
+
+Top level modules:
+	nand3
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/xor3.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/xor3.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module xor3
+
+Top level modules:
+	xor3
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/decode_orig.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/decode_orig.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/shifter.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/shifter.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/memory2c.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/memory2c.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/memory2c.syn.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/memory2c.syn.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/regFile_bypass.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/regFile_bypass.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module regFile_bypass
+
+Top level modules:
+	regFile_bypass
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/rotator_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/rotator_tb.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module rotator_tb
+
+Top level modules:
+	rotator_tb
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/right_rotator.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/right_rotator.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module right_rotator
+
+Top level modules:
+	right_rotator
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/cla_16b.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/cla_16b.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cla_16b
+
+Top level modules:
+	cla_16b
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/dff.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/dff.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nor2.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nor2.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module nor2
+
+Top level modules:
+	nor2
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/proc_hier_bench.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/proc_hier_bench.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module proc_hier_bench
+
+Top level modules:
+	proc_hier_bench
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/pipeline_ctrl.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/pipeline_ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pipeline_ctrl
+
+Top level modules:
+	pipeline_ctrl
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/not1.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/not1.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nor3.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nor3.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module nor3
+
+Top level modules:
+	nor3
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/alu.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/alu.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/rotator.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/rotator.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module rotator
+
+Top level modules:
+	rotator
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/left_rotator.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/left_rotator.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module left_rotator
+
+Top level modules:
+	left_rotator
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/fullAdder_1b.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/fullAdder_1b.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module fullAdder_1b
+
+Top level modules:
+	fullAdder_1b
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/cla_4b.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/cla_4b.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module cla_4b
+
+Top level modules:
+	cla_4b
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/dff_16bit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/dff_16bit.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dff_16bit
+
+Top level modules:
+	dff_16bit
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/regFile.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/regFile.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module regFile
+
+Top level modules:
+	regFile
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/memory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/memory.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/right_shifter.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/right_shifter.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module right_shifter
+
+Top level modules:
+	right_shifter
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/xor2.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/xor2.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module xor2
+
+Top level modules:
+	xor2
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/reg_16bit.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/reg_16bit.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module reg_16bit
+
+Top level modules:
+	reg_16bit
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/proc_hier.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/proc_hier.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module proc_hier
+
+Top level modules:
+	proc_hier
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nand2.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/nand2.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/clkrst.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Marvi/OneDrive - UW-Madison/Madison/ECE 552/Project/Phase 2/repo/project-team-35/project/demo2/verilog/clkrst.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}}
